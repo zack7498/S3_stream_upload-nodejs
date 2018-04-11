@@ -1,0 +1,31 @@
+{
+  "name": "minis3upload-nodejs",
+  "version": "1.0.0",
+  "description": "The mini AWS S3 upload",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm install && node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zack7498/miniS3upload-nodejs.git"
+  },
+  "keywords": [
+    "S3",
+    "AWS-S3",
+    "AWS_S3"
+  ],
+  "author": "Ryo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zack7498/miniS3upload-nodejs/issues"
+  },
+  "homepage": "https://github.com/zack7498/miniS3upload-nodejs#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.21"
+  }
+}
