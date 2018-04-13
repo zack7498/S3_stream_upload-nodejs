@@ -26,13 +26,13 @@ let s3client = new S3(
 
 ## Upload Your File or any Data by ReadStream
 
-use
+use `s3client.uploadFile`
 
-**s3client.uploadFile**
+# *description*
 
 Will upload your file by ReadStream.
 
-*parameter*
+# *parameter:*
 * upload_path **{string}** : The file will upload to this path.
 * filename **{string}** : Just filename.
 * mimeType **{string}** : MIME type. ex：application/json
