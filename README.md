@@ -38,7 +38,7 @@ This API will upload your file by Stream.
 * mimeType **{string}** : MIME type. ex：application/json
 * data **{readStream or any}** : Your need to upload Data.
 * ACL **{string}** : was same as AWS S3 ACL.
-* callback **{function}** : when upload finish will call.
+* callback **{function}** : when upload finish will call and return **three parameter** :
     * *RSerror* : was same as ReadStream Error. [see nodejs document](https://nodejs.org/dist/latest-v8.x/docs/api/stream.html#stream_class_stream_readable)
     * *S3error* **{Error}**: was same as API AWS_S3.uploadFile error Msg. [see AWS S3 Official Doc](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#upload-property).
     * *data* **{Object}**: was same as api AWS_S3.uploadFile Data. [see AWS S3 Official Doc](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#upload-property).
