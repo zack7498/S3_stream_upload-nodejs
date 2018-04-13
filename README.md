@@ -7,7 +7,7 @@ This module use the AWS official SDK.
 
 ## Installation
 
-npm install S3_stream_upload
+`npm install S3_stream_upload`
 
 ## Usage
 
