@@ -44,7 +44,7 @@ This API will upload your file by Stream.
     * *data* **{Object}**: was same as api AWS_S3.uploadFile Data. [see AWS S3 Official Doc](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#upload-property).
 
 ``` js
-//Example 1: upload ReadStream
+//Example 1: use other ReadStream upload
 
 const fs = require('fs');
 const fsRS = fs.createReadStream(`yourfile.json`));
@@ -59,7 +59,7 @@ s3client.uploadFile(
     //other code...
 });
 
-//Example 2: upload any Except Stream
+//Example 2: will Auto use ReadStrem upload
 
 s3client.uploadFile(
     `Your_Bucket_TargetPath`,
