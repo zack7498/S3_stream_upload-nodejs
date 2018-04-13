@@ -30,7 +30,7 @@ use
 
 **s3client.uploadFile**
 
-This API will upload your file by Stream.
+Will upload your file by ReadStream.
 
 *parameter*
 * upload_path **{string}** : The file will upload to this path.
