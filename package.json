@@ -1,18 +1,21 @@
 {
-  "name": "minis3upload-nodejs",
+  "name": "s3-stream-upload",
   "version": "1.0.0",
-  "description": "The mini AWS S3 upload",
+  "description": "This is easy to use readStream upload your file to your AWS S3",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
+  "dependencies": {
+    "aws-sdk": "^2.7.21"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "npm install && node ./test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zack7498/miniS3upload-nodejs.git"
+    "url": "git+https://github.com/zack7498/S3_stream_upload-nodejs.git"
   },
   "keywords": [
     "S3",
@@ -20,12 +23,9 @@
     "AWS_S3"
   ],
   "author": "Ryo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zack7498/miniS3upload-nodejs/issues"
+    "url": "https://github.com/zack7498/S3_stream_upload-nodejs/issues"
   },
-  "homepage": "https://github.com/zack7498/miniS3upload-nodejs#readme",
-  "dependencies": {
-    "aws-sdk": "^2.7.21"
-  }
+  "homepage": "https://github.com/zack7498/S3_stream_upload-nodejs#readme"
 }
