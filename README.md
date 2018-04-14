@@ -7,13 +7,13 @@ This module use the AWS official SDK.
 
 ## Installation
 
-`npm install S3_stream_upload`
+`npm install s3-upload-by-readstream`
 
 ## Usage
 
 ``` js
 
-const S3 = require('S3_stream_upload');
+const S3 = require('s3-upload-by-readstream');
 
 let s3client = new S3(
         `Your_BucketName`,

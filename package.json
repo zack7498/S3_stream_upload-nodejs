@@ -1,5 +1,5 @@
 {
-  "name": "S3-upload-ByReadStream",
+  "name": "s3-upload-by-readstream",
   "version": "1.0.0",
   "description": "This is easy to use readStream upload your file to your AWS S3",
   "main": "index.js",
@@ -19,8 +19,7 @@
   },
   "keywords": [
     "S3",
-    "AWS-S3",
-    "AWS_S3"
+    "AWS S3"
   ],
   "author": "Ryo",
   "license": "MIT",
